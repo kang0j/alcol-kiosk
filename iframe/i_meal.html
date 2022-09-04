@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../meal.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/main_iframe.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>i_meal</title>
+    <meta name="robots" content="noindex,nofollow" />
+
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+            getMeal();
+        });
+    </script>
+    <div class="btn_back" id="" onClick="history.back()">
+        <span class="material-icons md-48 md-light" style="font-size: 3rem;">arrow_back</span>
+        <div class="btn_t" style="margin-top: 0.7rem; margin-left: 0.5rem;">뒤로가기</div>
+      </div>
+    <div style="margin: 5%"></div>
+    <center><h1>급식 정보 보기</h1></center>
+<div style="margin: 5%"></div>
+<p class="in_infor"id="mealdata"></p>
+</body>
+</html>

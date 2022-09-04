@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'GB';
+    /* font-family: 'S-CoreDream-3Light'; */
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    
+}
+
+@font-face {
+    font-family: 'GM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+}
+
+html, body{
+    margin: 1.5%;
+    height: 95%;
+    background-color: rgb(43, 43, 43);
+    color: whitesmoke;
+    font-family: 'GM';
+}
+
+.bar{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: "GM";
+}
+
+
+
+
+.main{
+    height:90%;
+}
+
+footer{
+    position: fixed;
+    bottom: 3%;
+    width: 100%;
+}
+
+
+h1{
+    font-family: 'GB';
+    size: 2rem;
+}
+
+h2{
+    font-family: 'GM';
+    size: 1.5rem;
+}

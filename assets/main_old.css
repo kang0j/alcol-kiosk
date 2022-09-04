@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'GB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body
+{
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'GM';
+    overflow: hidden;
+    color: #fff;
+    background: #000;
+    word-break: keep-all;
+}
+.main{
+    margin: 3%;
+}
+h1 {
+    margin: 0px;
+    font-size: 9.5rem;
+    font-family: "GB";
+}
+
+p {
+    margin: 0px;
+}
+
+.date{
+    margin-bottom: 3px;
+}
+
+.title{
+    font-size: 2rem;
+    font-family: "GL";
+}
+
+.weather{
+    font-size: 1.9rem;
+    font-family: "GL";
+    margin-top: 10px;
+}
+
+.p_title{
+    font-size: 2rem;
+    font-family: "GM";
+}
+
+.box_m{
+    background: #424242;
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    break-after: column;
+    margin-right: 10px;
+    font-size: 1.9rem;
+    font-family: "GL";
+}
+
+.box{
+    column-count: 0;
+    column-gap: 0px;
+/*    column-rule: 10px dotted #fff;*/
+    width: 100%;
+}
+
+.dday_b{
+    font-family: "GL";
+    font-size: 2.6rem;
+}
+
+.bottom{
+    position: absolute;
+    bottom:0px;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    font-family: "GL";
+    z-index: -1;
+
+}
+
+
+.index_s{
+    font-size: 1.2rem;
+}
+
+.big{
+    font-size:6vmax;
+    color: rgb(69,105,254);
+    background-color: #ffffff;
+    border: solid;
+    border-color: rgb(96, 128, 255);
+    height: 100%;
+    text-align: center;
+    /* padding: 1   %; */
+    margin-bottom: 4rem;
+    font-family: "GB";
+
+}
+
+a{
+text-decoration:none;
+}
+
+h1{
+    margin:0px;
+    padding: 0px;
+}
+
+h2{
+    margin:0px;
+    padding: 0px;
+    font-size: 3.3rem;
+}
+
+h3{
+    font-size: 2.5rem;
+
+    margin:0px;
+    padding: 0px;
+}

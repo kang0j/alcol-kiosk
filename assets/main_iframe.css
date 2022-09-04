@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'GB';
+    /* font-family: 'S-CoreDream-3Light'; */
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+}
+
+html, body{
+    margin: 1.5%;
+    height: 95%;
+    /* background-color: rgb(127, 127, 127); */
+    color: whitesmoke;
+    font-family: 'GM';
+}
+
+.bar{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: "GM";
+}
+
+.main{
+    height:90%;
+}
+
+footer{
+    position: fixed;
+    bottom: 3%;
+    width: 100%;
+}
+
+
+h1{
+    font-family: 'GB';
+    size: 2rem;
+}
+
+h2{
+    font-family: 'GB';
+    size: 1.5rem;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btn{
+    width: 15%;
+    align-content: center;
+    text-align: center;
+    padding: 1%;
+    /* background-color: rebeccapurple; */
+}
+
+.btn_t{
+    font-size: 1.5rem;
+    font-family: 'GL';
+}
+
+.btn_back{
+    width: 15%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: center;
+    text-align: center;
+    padding: 1%;
+    /* background-color: rebeccapurple; */
+}
+
+.in_infor{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.welcome{
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'PyeongChangPeace-Light';
+
+
+}
