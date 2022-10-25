@@ -27,7 +27,7 @@ var min = date.getMinutes();
 var sec = date.getSeconds();
 
 var week = new Array('일', '월', '화', '수', '목', '금', '토');
-var bottom_var = "Last update: "+month+"월 "+day+"일 "+hour+"시 "+min+"분 "+sec+"초 | API: OpenWeather, NEIS | <b>페이지 새로고침을 원하시면 이곳을 눌러주세요.</b>";
+var bottom_var = "Last update: "+month+"월 "+day+"일 "+hour+"시 "+min+"분 "+sec+"초 | API: OpenWeather, NEIS, Kakao | <b>페이지 새로고침을 원하시면 이곳을 눌러주세요.</b>";
 
 
 document.getElementById('bottomv').innerHTML = bottom_var;

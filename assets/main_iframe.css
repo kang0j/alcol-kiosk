@@ -28,8 +28,9 @@
 html, body{
     margin: 1.5%;
     height: 95%;
-    /* background-color: rgb(127, 127, 127); */
-    color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(231, 231, 231); */
+    color: rgb(37, 37, 37);
     font-family: 'GM';
 }
 
@@ -53,7 +54,7 @@ footer{
 
 h1{
     font-family: 'GB';
-    size: 2rem;
+    size: 3rem;
 }
 
 h2{
@@ -93,7 +94,8 @@ h2{
 
 .in_infor{
     text-align: center;
-    font-size: 1.2rem;
+    font-family: 'GL';
+    font-size: 1.5rem;
 }
 
 .welcome{
