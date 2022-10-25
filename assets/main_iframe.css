@@ -28,7 +28,7 @@
 html, body{
     margin: 1.5%;
     height: 95%;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     /* background-color: rgb(231, 231, 231); */
     color: rgb(37, 37, 37);
     font-family: 'GM';
